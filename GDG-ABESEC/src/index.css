@@ -1,9 +1,9 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
 html,body,#root{
 overflow-x: hidden;
 }
-@import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 .space-mono-regular {
   font-family: "Space Mono", monospace;
   font-weight: 400;
