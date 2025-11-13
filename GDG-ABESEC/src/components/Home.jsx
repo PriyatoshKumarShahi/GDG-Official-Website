@@ -11,7 +11,7 @@ const Home = () => {
           speed={0.6}
           borderColor="#222"
           squareSize={60}
-          hoverFillColor="#FACC15"
+          hoverFillColor="#21334e"
         />
       </div>
 
@@ -22,18 +22,19 @@ const Home = () => {
           alt="gdgLogo"
         />
 
-        <div className="fixed flex flex-wrap items-center top-20 left-4 md:top-15 md:left-30 space-mono-regular space-mono-bold text-3xl md:text-4xl">
-          <span className="text-blue-500">G</span>
-          <span className="text-red-500">o</span>
-          <span className="text-yellow-300">o</span>
-          <span className="text-green-500">g</span>
-          <span className="text-blue-500">l</span>
-          <span className="text-red-500">e</span>
-        </div>
+      <div className="fixed flex flex-wrap items-center top-20 left-4 md:top-15 md:left-30 space-mono-regular space-mono-bold text-3xl md:text-4xl">
+  <span className="text-blue-500">G</span>
+  <span className="text-red-500">o</span>
+  <span className="text-yellow-300">o</span>
+  <span className="text-green-500">g</span>
+  <span className="text-blue-500">l</span>
+  <span className="text-red-500">e</span>
+</div>
 
-        <div className="fixed text-white text-xl md:text-3xl top-28 left-4 md:top-16 md:left-63 space-mono-regular space-mono-bold">
-          Developers
-        </div>
+<div className="fixed text-white text-xl md:text-3xl top-28 left-4 md:top-16 md:left-63 ml-3 space-mono-regular space-mono-bold">
+  Developers Group
+</div>
+
       </div>
 
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 sm:px-6 z-20 pointer-events-none">

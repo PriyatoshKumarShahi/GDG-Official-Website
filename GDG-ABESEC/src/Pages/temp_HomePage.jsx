@@ -6,12 +6,12 @@ import Footer from "../components/Footer";
 export default function HomePage() {
   return (
     <>
-      <Home />
       <div className="w-full  overflow-x-hidden">
+      <Home />
         <About />
-      </div>
       <OrganisersAndActingGenerals />
       <Footer />
+      </div>
     </>
   );
 }
