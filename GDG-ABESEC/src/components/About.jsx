@@ -79,7 +79,7 @@ export default function About() {
           <div className="text-center mb-16">
             <h2 className="text-6xl md:text-7xl font-bold text-slate-300 mb-4">
               About{" "}
-              <span className="text-transparent bg-clip-text bg-linear-to-r from-red-300 to-yellow-400">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-green-300 to-blue-400">
                 Us
               </span>
             </h2>

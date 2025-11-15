@@ -14,7 +14,7 @@ import {
 const cardData = [
   {
     title: "Technical Workshops",
-    desc: "Hands-on coding sessions with industry tools and frameworks.",
+    desc: "Hands-on coding sessions with industry tools and frameworks, designed to help you build real-world skills through practical exercises and guided learning.",
     icon: <Code size={32} />,
     tags: ["Hands-on", "Skill Boost", "Live Demos"],
     themeHex: "#3b82f6",
@@ -23,7 +23,7 @@ const cardData = [
   },
   {
     title: "Hackathons",
-    desc: "48-hour innovation marathons with exciting prizes and mentorship.",
+    desc: "48-hour innovation marathons filled with problem-solving, exciting prizes, expert mentorship, and the opportunity to build impactful prototypes with your team.",
     icon: <Trophy size={32} />,
     tags: ["48 Hours", "Teamwork", "Innovation"],
     themeHex: "#ef4444",
@@ -32,7 +32,7 @@ const cardData = [
   },
   {
     title: "Study Jams",
-    desc: "Collaborative learning programs for certifications and skills.",
+    desc: "Collaborative learning programs focused on certifications and essential tech skills, where mentors guide you step-by-step through structured content and hands-on tasks.",
     icon: <BookOpen size={32} />,
     tags: ["Guided", "Peer Learning", "Certificates"],
     themeHex: "#eab308",
@@ -41,7 +41,7 @@ const cardData = [
   },
   {
     title: "Networking",
-    desc: "Connect with developers, professionals, and like-minded builders.",
+    desc: "Connect with developers, professionals, and like-minded builders while sharing ideas, exploring opportunities, and forming collaborations that extend beyond events.",
     icon: <Users size={32} />,
     tags: ["Meet People", "Collaborate", "Community"],
     themeHex: "#22c55e",
@@ -50,7 +50,7 @@ const cardData = [
   },
   {
     title: "Tech Talks",
-    desc: "Learn real-world tech insights from industry experts.",
+    desc: "Learn real-world insights from industry experts as they share cutting-edge technologies, best practices, career guidance, and inspiring stories from the tech world.",
     icon: <MessageSquare size={32} />,
     tags: ["Experts", "Latest Tech", "Insights"],
     themeHex: "#06b6d4",
@@ -59,7 +59,7 @@ const cardData = [
   },
   {
     title: "Build Projects",
-    desc: "Work on real projects and build your developer portfolio.",
+    desc: "Work on real, impactful projects that strengthen your developer portfolio while collaborating with peers, solving problems, and applying your skills in practical scenarios.",
     icon: <Rocket size={32} />,
     tags: ["Real Projects", "Teamwork", "Portfolio"],
     themeHex: "#a855f7",
@@ -67,6 +67,7 @@ const cardData = [
     bgGradient: "from-purple-500/10 via-purple-600/5 to-transparent",
   },
 ];
+
 
 const WhyJoinGDG = () => {
   return (
